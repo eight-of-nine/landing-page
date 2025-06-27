@@ -18,6 +18,7 @@ body {
 .logo {
     font-weight: bold;
     font-size: 24px;
+    margin: 0px;
 }
 
 .nav-links {
@@ -51,7 +52,6 @@ body {
     background-color: #3882F6;
     border-radius: 5px;
     font-weight: bold;
-    text-decoration: none;
     width: 125px;
     text-align: center;
     padding: 8px 0px;
@@ -102,6 +102,114 @@ body {
     color: #E5E7EB;
 }
 
-.site-wrapper {
-    padding: 0 150px;
+.image-holder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-2 {
+    padding: 15px 15%;
+}
+
+.section-2>p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.image-holder>.image {
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+    height: 155px;
+    width: 155px;
+    text-align: center;
+}
+
+figure>img {
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+    height: 155px;
+    width: 155px;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    color: #6d747d;
+    font-size: 18px;
+}
+
+.quote-section-3 {
+    padding: 15px 20%;
+    background-color: #E5E7EB;
+}
+
+.quote-section-3>.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: block;
+    font-weight: 200;
+}
+
+.quote-section-3>p:nth-of-type(2) {
+    font-weight: bold;
+    text-align: right;
+    font-size: 25px;
+
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.calltoactiontext {
+    width: 70%;
+}
+
+.calltoactiontext>p:nth-of-type(1) {
+    font-weight: bold;
+    color: #E5E7EB;
+    margin-bottom: 5px;
+    margin-top: 0px;
+
+}
+
+.calltoactiontext p:nth-of-type(2) {
+    color: lightgrey;
+    margin: 5px;
+    margin: 0px;
+}
+
+.calltoactionbutton {
+    width: 30%;
+}
+
+.calltoactionbutton>p {
+    text-align: center;
+    padding: 5px 0px;
+    display: block;
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    width: 125px;
+}
+
+.section-4 {
+    margin: 100px;
+}
+
+.footer {
+    padding: 25px;
+    background-color: #1F2937;
+}
+
+.footer>p {
+    text-align: center;
+    color: #E5E7EB;
+    word-spacing: 10px;
 }
